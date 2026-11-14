@@ -1,0 +1,25 @@
+{
+  "name": "europetcg-core-showcase",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Curated backend architecture, transactional security, and PostgreSQL RLS showcase extracted from EuropeTCG (https://europetcg.eu).",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.103.0",
+    "next": "16.2.2",
+    "nodemailer": "^9.0.3",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "stripe": "^22.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.0",
+    "@types/nodemailer": "^8.0.1",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
+  }
+}
