@@ -2,7 +2,7 @@
   "name": "europetcg-core-showcase",
   "version": "1.0.0",
   "private": true,
-  "description": "Curated backend architecture, transactional security, and PostgreSQL RLS showcase extracted from EuropeTCG (https://europetcg.eu).",
+  "description": "Backend API routes, Stripe/SEPA payment idempotency, proxy auction concurrency control, and PostgreSQL RLS migrations for EuropeTCG (https://europetcg.eu).",
   "scripts": {
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
